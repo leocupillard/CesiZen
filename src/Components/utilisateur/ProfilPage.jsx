@@ -170,7 +170,7 @@ export default function ProfilPage() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          bgcolor: "#e0e0e0"
+          bgcolor: "#ffffffff"
         }}
       >
         <Paper
