@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"        # Type de projet (ici npm pour React/Vite)
+    directory: "/"                  # Dossier où se trouve package.json
+    schedule:
+      interval: "weekly"            # Vérifie chaque semaine (daily/weekly/monthly)
+    open-pull-requests-limit: 5     # Limite le nombre de PR ouvertes par Dependabot
+    commit-message:
+      prefix: "chore(deps)"         # Préfixe pour les commits de mise à jour
